@@ -2,3 +2,4 @@ flask
 holehe
 httpx
 gunicorn
+requests
