@@ -10,7 +10,7 @@ def check_email(email):
     async def run():
         data = []
         client = AsyncClient()
-        websites = get_functions()
+        websites = get_functions(get_modules())
         for website in websites:
             try:
                 await website(email, client, data)
